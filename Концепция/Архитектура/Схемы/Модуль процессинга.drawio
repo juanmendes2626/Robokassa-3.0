@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="1286" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -56,7 +56,7 @@
             <mxPoint x="1280" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bhYcvt21sX71MlY_wyxP-14" value="API эквайринга&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bhYcvt21sX71MlY_wyxP-12" vertex="1" connectable="0">
+        <mxCell id="bhYcvt21sX71MlY_wyxP-14" value="API платёжных инструментов&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bhYcvt21sX71MlY_wyxP-12" vertex="1" connectable="0">
           <mxGeometry x="-0.1939" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -150,35 +150,35 @@
         <mxCell id="bhYcvt21sX71MlY_wyxP-34" value="Функциональная схема модуля процессинга" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="40" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-1" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;" edge="1" parent="1">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-1" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1040" y="380" as="sourcePoint" />
             <mxPoint x="1280" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-2" value="API финансового учёта&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalkw2Jd8aHDy1bFEspg-1">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-2" value="API финансового учёта&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kalkw2Jd8aHDy1bFEspg-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1939" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.999;exitY=0.773;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bhYcvt21sX71MlY_wyxP-1">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.999;exitY=0.773;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bhYcvt21sX71MlY_wyxP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="390" as="sourcePoint" />
             <mxPoint x="1280" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-6" value="API фискализации&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalkw2Jd8aHDy1bFEspg-5">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-6" value="API фискализации&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kalkw2Jd8aHDy1bFEspg-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1939" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.026;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.026;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="300" as="sourcePoint" />
             <mxPoint x="440" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kalkw2Jd8aHDy1bFEspg-8" value="API&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;управления&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalkw2Jd8aHDy1bFEspg-7">
+        <mxCell id="kalkw2Jd8aHDy1bFEspg-8" value="API&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;управления&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kalkw2Jd8aHDy1bFEspg-7" vertex="1" connectable="0">
           <mxGeometry x="0.5111" y="1" relative="1" as="geometry">
             <mxPoint x="51" as="offset" />
           </mxGeometry>
