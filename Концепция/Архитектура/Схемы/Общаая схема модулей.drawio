@@ -1,22 +1,22 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2715" dy="2569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2438" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EwcPJpzdMDqNDcOes__M-96" value="Модуль Мерчанты (те, кто умеет выставлять счета)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EwcPJpzdMDqNDcOes__M-96" value="Модуль Мерчанты (те, кто умеет выставлять счета)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="80" width="400" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-97" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Их очень много&lt;/div&gt;&lt;div&gt;Они сильно похожи по логике&lt;/div&gt;Личный кабиннет&lt;div&gt;Финансовые счета&lt;/div&gt;&lt;div&gt;Отчетность&lt;/div&gt;&lt;div&gt;API + процессинг&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-96" vertex="1">
           <mxGeometry x="10" y="30" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EwcPJpzdMDqNDcOes__M-99" value="&amp;nbsp;Провайдеры (есть лицевые счета для пополнения)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EwcPJpzdMDqNDcOes__M-99" value="&amp;nbsp;Модуль Провайдеры (есть лицевые счета для пополнения)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="340" width="400" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-100" value="&lt;div&gt;Их среднее количество&lt;/div&gt;&lt;div&gt;Они относительно схожие по логике работы&lt;/div&gt;Личный кабиннет лайт&lt;div&gt;Отчетность&lt;/div&gt;&lt;div&gt;API + процессинг&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-99" vertex="1">
           <mxGeometry x="10" y="30" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EwcPJpzdMDqNDcOes__M-101" value="&amp;nbsp;Платёжюные инструменты(все возможные средства приема платежей)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EwcPJpzdMDqNDcOes__M-101" value="&amp;nbsp;Модуль Платёжюные инструменты(все возможные средства приема платежей)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="610" width="400" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-102" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Они сильно разные по логике работы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;У них сложные настройки&lt;/div&gt;Личный кабиннет лайт&lt;div&gt;Отчетность&lt;/div&gt;&lt;div&gt;Модули сверки и разнессения реестров&lt;/div&gt;&lt;div&gt;Конвертер уникальных API в общий выходной&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-101" vertex="1">
@@ -79,13 +79,13 @@
         <mxCell id="EwcPJpzdMDqNDcOes__M-126" value="Доступ к внутренним API для извлечения&amp;nbsp;&lt;div&gt;данных в общее озеро&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-124" vertex="1">
           <mxGeometry x="40" y="40" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EwcPJpzdMDqNDcOes__M-105" value="&amp;nbsp;Внутренний обменник (то, что конвертирует &quot;деньги&quot; эквареров в &quot;деньги&quot; мерчантов/провайдеров )" style="swimlane;whiteSpace=wrap;html=1;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
+        <mxCell id="EwcPJpzdMDqNDcOes__M-105" value="&amp;nbsp;Модуль Внутренний обменник (то, что конвертирует &quot;деньги&quot; эквареров в &quot;деньги&quot; мерчантов/провайдеров )" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
           <mxGeometry x="520" y="1240" width="640" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-106" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Они сильно разные по логике работы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;У них сложные настройки&lt;/div&gt;Личный кабиннет лайт&lt;div&gt;Отчетность&lt;/div&gt;&lt;div&gt;Модули сверки и разнессения реестров&lt;/div&gt;&lt;div&gt;Конвертер уникальных API в общий выходной&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-105" vertex="1">
           <mxGeometry x="10" y="40" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EwcPJpzdMDqNDcOes__M-103" value="Модуль процессинга (то, что соединяет мерчантов/провайдеров с эквайрингами)" style="swimlane;whiteSpace=wrap;html=1;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
+        <mxCell id="EwcPJpzdMDqNDcOes__M-103" value="Модуль процессинга (то, что соединяет мерчантов/провайдеров с эквайрингами)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
           <mxGeometry x="520" y="980" width="520" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-104" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Они сильно разные по логике работы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;У них сложные настройки&lt;/div&gt;Личный кабиннет лайт&lt;div&gt;Отчетность&lt;/div&gt;&lt;div&gt;Модули сверки и разнессения реестров&lt;/div&gt;&lt;div&gt;Конвертер уникальных API в общий выходной&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-103" vertex="1">
@@ -97,22 +97,22 @@
         <mxCell id="EwcPJpzdMDqNDcOes__M-121" value="Внешние провайдеры аутентификации&lt;div&gt;Универсальный движок авторизации для всех&amp;nbsp;&lt;/div&gt;&lt;div&gt;прочих модулей&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="EwcPJpzdMDqNDcOes__M-120" vertex="1">
           <mxGeometry x="35" y="30" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-1" value="Модуль клиенты (физлица - плательщики)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="EwcPJpzdMDqNDcOes__M-127">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-1" value="Модуль клиенты (физлица - плательщики)" style="swimlane;whiteSpace=wrap;html=1;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
           <mxGeometry x="30" y="1670" width="400" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Их очень много&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Они одинаковые&lt;/div&gt;Личный кабиннет&lt;div&gt;Прорстые отчёты (истоиря&lt;/div&gt;&lt;div&gt;операций)&lt;/div&gt;&lt;div&gt;Инициирование пополнений счётов&lt;/div&gt;&lt;div&gt;Получение счётов от мерчантов&lt;/div&gt;&lt;div&gt;Хитрые схемы (разделить оплату, и т.д.)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CoD8RWRZb0lw4X5uB_T0-1">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Их очень много&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Они одинаковые&lt;/div&gt;Личный кабиннет&lt;div&gt;Прорстые отчёты (истоиря&lt;/div&gt;&lt;div&gt;операций)&lt;/div&gt;&lt;div&gt;Инициирование пополнений счётов&lt;/div&gt;&lt;div&gt;Получение счётов от мерчантов&lt;/div&gt;&lt;div&gt;Хитрые схемы (разделить оплату, и т.д.)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CoD8RWRZb0lw4X5uB_T0-1" vertex="1">
           <mxGeometry x="-5" y="20" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-3" value="Модуль фискализации (выдачи чеков)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="EwcPJpzdMDqNDcOes__M-127">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-3" value="Модуль фискализации (выдачи чеков)" style="swimlane;whiteSpace=wrap;html=1;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
           <mxGeometry x="520" y="1490" width="520" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-4" value="&lt;div&gt;Логика работы сильно завязана на юрисдикцию&lt;/div&gt;&lt;div&gt;Работа с внешними партнерами - поставщиками услуг&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CoD8RWRZb0lw4X5uB_T0-3">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-4" value="&lt;div&gt;Логика работы сильно завязана на юрисдикцию&lt;/div&gt;&lt;div&gt;Работа с внешними партнерами - поставщиками услуг&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CoD8RWRZb0lw4X5uB_T0-3" vertex="1">
           <mxGeometry x="10" y="40" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-5" value="Модуль финансового учёта (учёт всеё финансовой информации)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="EwcPJpzdMDqNDcOes__M-127">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-5" value="Модуль финансового учёта (учёт всеё финансовой информации)" style="swimlane;whiteSpace=wrap;html=1;" parent="EwcPJpzdMDqNDcOes__M-127" vertex="1">
           <mxGeometry x="520" y="1740" width="520" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="CoD8RWRZb0lw4X5uB_T0-6" value="&lt;div&gt;Логика работы сильно завязана на юрисдикцию&lt;/div&gt;&lt;div&gt;Работа с внешними партнерами - поставщиками услуг&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CoD8RWRZb0lw4X5uB_T0-5">
+        <mxCell id="CoD8RWRZb0lw4X5uB_T0-6" value="&lt;div&gt;Логика работы сильно завязана на юрисдикцию&lt;/div&gt;&lt;div&gt;Работа с внешними партнерами - поставщиками услуг&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CoD8RWRZb0lw4X5uB_T0-5" vertex="1">
           <mxGeometry x="10" y="40" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EwcPJpzdMDqNDcOes__M-128" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
